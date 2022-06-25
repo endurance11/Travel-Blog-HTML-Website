@@ -1,0 +1,82 @@
+body{
+background-image : url("img/mars4.jpg");
+}
+
+
+header,footer{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	color: white;
+}
+
+header h1{
+	margin-left: 0.2em;
+	font-size: 3em;
+}
+
+header h2{
+	margin-left: 0.2em;
+}
+
+article{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	color:white;
+}
+
+article section{
+	margin-left: 2em;
+}
+
+article a:link{
+	color: #dbb8ea;
+}
+
+article a:visited{
+	color: #dbb8ea;
+}
+
+#description{
+	border-bottom :1.5px solid gray;
+}
+
+
+nav ul li{
+	display: inline;
+}
+
+
+
+nav ul li a{
+	text-decoration: none;
+	font-size: 1.5em;
+	margin-right: 1em;
+	font-weight: bold;
+	color: #98e552;
+}
+
+footer a{
+	margin: 1em;
+	color: #5be552;
+}
+.ita{
+	font-style: italic;
+}
+.second{
+	font-size: 1.2em;
+	font-family: Verdana;
+}
+
+#Page{
+	text-align : center;
+	font-size : 0.9em;
+}
+
+#Page a:link{
+	color: #3FB2E8;
+}
+#Page a:visited{
+	color: #3FB2E8;
+}

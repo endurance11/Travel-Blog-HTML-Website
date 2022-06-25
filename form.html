@@ -1,0 +1,48 @@
+<html>
+<body>
+<script defer src="js/submit.js"></script>
+    <h1 style="text-align: center;">SUGGESTIONS/QUERIES?</h1>
+   <h3 style="text-align: center;">Write to us and if we like your idea we will reply you back.</h3>
+<br />
+    <form name="Form"  action="php/connect.php" 
+          onsubmit="return form()" method="POST">
+        <p>Name: <input type="text" 
+                        size="65" name="Name" /></p>
+        <br />
+        <p>E-mail Address: <input type="text" 
+                               size="65" name="Email" /></p>
+        <br />
+        <p>Telephone: <input type="text" 
+                             size="65" name="Telephone" /></p>
+       
+        <br />
+        <p>Suggestions/Queries?: <textarea cols="75" rows="3" 
+                               name="Suggestions"> </textarea></p>
+        <p>
+            <input type="submit" 
+                   value="Submit" name="Submit" />
+            <input type="reset" 
+                   value="Reset" name="Reset" />
+        </p>
+    </form>
+</body>
+<style>
+div { 
+    box-sizing: border-box;
+    width: 100%;
+    border: 100px solid black;
+    float: left;
+    align-content: center;
+    align-items: center;
+}
+body{
+background-image : url("css/img/ss.jpg");
+color:white;
+}
+   
+form {   
+    margin: 0 auto;
+    width: 600px;
+}</style>
+
+</html>
